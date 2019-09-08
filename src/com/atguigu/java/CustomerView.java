@@ -7,8 +7,10 @@ public class CustomerView {
 	public CustomerView() {
 		list = new CustomerList(10); // 给CustomerList中的数组指定长度
 		//默认添加一条数据
+		//默认添加一条数据
 		Customer customer = new Customer("小样", '男', 45, "15862", "bbb@qq.com");
 		list.addCustomer(customer);
+		//默认添加一条数据
 	}
 
 	/**
